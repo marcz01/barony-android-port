@@ -27308,7 +27308,7 @@ failed:
 				});
 			int back = c - 1 < 0 ? num_options - 1 : c - 1;
 			int forward = c + 1 >= num_options ? 0 : c + 1;
-            if (!ingame && c == 0 && isCurrentHoliday(true)) {
+            if (!ingame && c == 0 && isCurrentHoliday()) {
                 button->setWidgetUp("holiday_banner");
             } else {
                 button->setWidgetUp(options[back].name);
@@ -27441,7 +27441,7 @@ failed:
 		if (!ingame) {
             // holiday notification
             const char* holiday_banner_images[2] = { "", "" };
-            const auto holiday = getCurrentHoliday(true);
+            const auto holiday = getCurrentHoliday();
             switch (holiday) {
             default: break;
             case HolidayTheme::THEME_HALLOWEEN:
