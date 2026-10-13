@@ -57,13 +57,11 @@ public final class BaronyActivity extends SDLActivity {
             "sound/sounds.txt"
     };
     private static final String[] CRITICAL_HASH_FILES = {
-            "lang/en.txt",
             "maps/start.lmp",
             "models/models.txt",
             "sound/sounds.txt"
     };
     private static final String[] EXPECTED_CRITICAL_HASHES = {
-            "153ef608caafea9226db4e006ad8d778bfe675cf006227efe0fb5c5cac551f40",
             "40a57fb4e5b1caed5f03599077db368f414970ebcd9aa169fdaeabeb9e6bf04d",
             "d5344cb2891baf871d8a09aa25aeeefb60cb633f4c1a327e46d40d823bdd949c",
             "f4da80b451d4023323f33e8edc555ef0698de2e46629fd7b710aab5f7cd7eb1e"
