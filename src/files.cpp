@@ -49,6 +49,7 @@ ConsoleVariable<bool> cvar_disableHoliday("/disable_holiday", true);
 #endif
 
 HolidayTheme getCurrentHoliday(bool force) {
+	return HolidayTheme::THEME_NONE;
 #ifdef EDITOR
     return HolidayTheme::THEME_NONE;
 #else
